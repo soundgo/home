@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
 }
 
 p, .lead {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -81,12 +81,12 @@ a:hover, a:focus {
 }
 
 ::selection {
-	background: #231f20; /* Safari */
-	color: #FFFFFF;
+  background: #231f20; /* Safari */
+  color: #FFFFFF;
 }
 ::-moz-selection {
-	background: #231f20; /* Firefox */
-	color: #FFFFFF;
+  background: #231f20; /* Firefox */
+  color: #FFFFFF;
 }
 
 
@@ -223,7 +223,7 @@ a:hover, a:focus {
 }
 
 .purple-bg {
-	background: #6d3f96;
+  background: #6d3f96;
 }
 
 
@@ -273,7 +273,7 @@ a:hover, a:focus {
 }
 
 .logo img {
-	margin-top: 6px;
+  margin-top: 6px;
 }
 
 
@@ -352,25 +352,25 @@ header {
 }
 
 .pad-xl {
-	padding: 200px 0px;
+  padding: 200px 0px;
 }
 
 .pad-lg {
-	padding: 160px 0px;
+  padding: 160px 0px;
 }
 
 .pad-sm {
-	padding: 80px 0px;
+  padding: 80px 0px;
 }
 
 .pad-xs {
-	padding: 30px 0px;
+  padding: 30px 0px;
 }
 
 
 
 #be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  background: url(../img/bethefirst.jpg) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -379,23 +379,28 @@ header {
 }
 
 hr.line {
-	width: 100%;
-	border: 2px solid;
+  width: 100%;
+  border: 2px solid;
+}
+
+.line.white {
+    border-color: white;
+    color: white;
 }
 
 .purple {
-	border-color: #6d3f96;
-	color: #6d3f96;
+  border-color: #6d3f96;
+  color: #6d3f96;
 }
 
 .blue {
-	border-color: #70cbce;
-	color: #70cbce
+  border-color: #70cbce;
+  color: #70cbce
 }
 
 .yellow {
-	border-color: #fdc05d;
-	color: #fdc05d;
+  border-color: #fdc05d;
+  color: #fdc05d;
 }
 
 .iphone {
@@ -457,8 +462,8 @@ footer {
 /*---------------Pricing Tables-------------------*/
 
 
-#pricing {
-  background: #70cbce;
+#pricing, #faq {
+  background: #7E3FD1;
 }
 
 .pricing-container {
@@ -476,7 +481,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 .pricing-table.active {
-  box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
+  box-shadow: 0px 0px 12px rgba(41,46,50,0.6);
   position: absolute;
   margin: auto;
   z-index: 200;
@@ -556,17 +561,68 @@ footer {
 }
 
 .features.last a {
-	color: #70cbce;
-	font-size: 14px;
-	letter-spacing: 1px;
+  color: #70cbce;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .pricing-container .btn {
     border-radius: 0;
 }
 
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+#pricing p {
+    font-size: 20px;
+}
+
+#pricing h3 {
+    font-size: 25px;
+    width: 75%;
+}
 
 
+#about .avatar {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#faq .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#faq ul {
+}
+
+#faq li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 17.5px;
+}
+
+#faq li span {
+    display: block;
+    text-align: left;
+}
+
+#faq li span:nth-child(1) {
+    color: white;
+}
+
+#faq li span:nth-child(1):before {
+    content: "Q: "
+}
+
+#faq li span:nth-child(2):before {
+    content: "A: "
+}
 
 /* ==========================================================================
    Form styles
@@ -611,7 +667,7 @@ footer {
    Mobile styles
    ========================================================================== */
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
 .btn-lg {
   font-size: 12.5px;
@@ -629,7 +685,7 @@ footer {
   letter-spacing: 0px;
 }
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -637,9 +693,9 @@ footer {
 
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 767px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -649,10 +705,10 @@ footer {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
-  
+
 }
 
 
@@ -661,7 +717,7 @@ footer {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
-     
+
 
 
 /* Large screens ----------- */

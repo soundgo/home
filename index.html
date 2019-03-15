@@ -11,6 +11,8 @@
   <meta property="og:url" content="">
   <meta property="og:site_name" content="">
   <meta property="og:description" content="">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -25,7 +27,7 @@
   
 </head>
 
-<body>
+<body id="body">
 
     
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -40,9 +42,12 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#pricing" class="scroll">SoundGo</a></li>
-            <li><a href="#">Planes</a></li>
-            <li><a href="#">Equipo</a></li>
+            <li><a href="#body" class="scroll">SoundGo</a></li>
+            <li><a href="#be-the-first" class="scroll">Our app</a></li>
+            <li><a href="#pricing" class="scroll">Pricing</a></li>
+            <li><a href="#about" class="scroll">About us</a></li>
+            <li><a href="#faq" class="scroll">FAQs</a></li>
+            <li><a href="#invite" class="scroll">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -55,7 +60,12 @@
             <a class="logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
           </div>
           <div class="col-xs-6 signin text-right navbar-nav">
-            <a href="#pricing" class="scroll">SA</a>&nbsp; &nbsp;<a href="#">Sign in</a>
+              <a href="#body" class="scroll">SoundGo</a> &nbsp;&nbsp;
+              <a href="#be-the-first" class="scroll">Our app</a> &nbsp;&nbsp;
+              <a href="#pricing" class="scroll">Pricing</a> &nbsp;&nbsp;
+              <a href="#about" class="scroll">About us</a> &nbsp;&nbsp;
+              <a href="#faq" class="scroll">FAQs</a> &nbsp;&nbsp;
+              <a href="#invite" class="scroll">Contact</a>
           </div>
         </div>
         
@@ -73,7 +83,7 @@
                     <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Learn More</a>
                   </div>
                   <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
-                    <a href="#invite" class="btn btn-primary btn-lg scroll">Request Invite</a>
+                    <a href="#invite" class="btn btn-primary btn-lg scroll">Contact with us!</a>
                   </div>
                 </div><!--End Button Row-->  
               </div>
@@ -153,9 +163,19 @@
                 </div>
             </div>
 
-            <div class="row margin-50">
-                <h3 class="white center">The price of each reproduction depends of the area where the user can listen it and
-                    the duration of the ad.</h3>
+            <div class="row margin-50 center white">
+                <h3 class="center white">The price of each reproduction depends of...</h3>
+            </div>
+
+            <div id="icons" class="row margin-50">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                    <img src="https://image.flaticon.com/icons/svg/1051/1051126.svg" alt="" />
+                    <h3 class="white">Radius of appearance</h3>
+                </div>
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+                    <img src="https://image.flaticon.com/icons/svg/1244/1244252.svg" alt="" />
+                    <h3 class="white">Duration</h3>
+                </div>
             </div>
 
             <hr class="line white"/>
@@ -249,6 +269,10 @@
                       <span>Yes, it's free, always and forever.</span>
                   </li>
                   <li>
+                      <span>What do you mean with "radius of appearance of an audio"?</span>
+                      <span>When you create an advert you must indicate a radius of appearance of it, it's the area in what the ad will be visible from the user, that means that an user will listened it if the distance between the user and the ad is lesser than the radius of appearance.</span>
+                  </li>
+                  <li>
                       <span>What does happen with the audio when it's deleted?</span>
                       <span>It's removed from our server.</span>
                   </li>
@@ -299,22 +323,11 @@
     
     <footer>
       <div class="container">
-        
-        <div class="row">
-          <div class="col-sm-8 margin-20">
-            <ul class="list-inline social">
-              <li>Connect with us on</li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-          
+
           <div class="col-sm-4 text-right">
             <p><small>Copyright &copy; 2019. All rights reserved.
           </div>
-        </div>
-        
+
       </div>
     </footer>
     

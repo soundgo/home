@@ -127,12 +127,12 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#70cbce;
+  background-color:#7E3FD1;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #8be2e5;
+  background-color: #7E3FD1;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -583,6 +583,26 @@ footer {
 #pricing h3 {
     font-size: 25px;
     width: 75%;
+}
+
+#pricing #icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing #icons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pricing #icons h3 {
+    text-align: center;
+}
+
+#pricing #icons img {
+    width: 125px;
+    margin: auto;
 }
 
 

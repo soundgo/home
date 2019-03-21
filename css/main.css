@@ -712,6 +712,12 @@ footer {
   }
 
 }
+/* Desktops and laptops ----------- */
+@media (max-width: 600px) {
+  #pricing #icons {
+      display: block !important;
+  }
+}
 
 
 /* Landscape phone to portrait tablet */

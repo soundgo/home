@@ -714,7 +714,7 @@ footer {
 }
 /* Desktops and laptops ----------- */
 @media (max-width: 600px) {
-  #pricing #icons {
+  #pricing #icons div {
       display: block !important;
   }
 }

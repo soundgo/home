@@ -319,10 +319,11 @@ header {
   margin-bottom: 12%;
 }
 
-.signin {
-  padding-top: 9px;
+.container .row.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .mouse-icon {
     border: 2px solid #fff;
@@ -752,6 +753,10 @@ footer {
   #pricing img {
     width: 100px;
   }
+
+  .col-xs-12 .logo img {
+    margin: auto;
+  }
 }
 
 
@@ -766,6 +771,10 @@ footer {
     display: none;
   }
 
+    .col-xs-12 .logo img {
+    margin: auto;
+  }
+
 }
 
 
@@ -778,6 +787,10 @@ footer {
 
   .signin {
     display: none;
+  }
+
+  .col-xs-12 .logo img {
+    margin: auto;
   }
 
 }

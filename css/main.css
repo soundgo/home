@@ -237,10 +237,19 @@ a:hover, a:focus {
     background: #70cbce;
     margin: auto;
     min-height: 60px;
-    padding-top: 8px;
+    padding: 8px;
     position: fixed;
-    top: -60px;
+    top: -120px;
     transition: top 0.4s ease 0s;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar.open {
@@ -270,6 +279,12 @@ a:hover, a:focus {
 
 .navbar-inverse .navbar-toggle {
     border-color: transparent;
+    margin-right: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -682,7 +697,11 @@ footer {
     opacity: 1;
 }
 
-
+#faq ul {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 0px;
+}
 
 
 /* ==========================================================================
@@ -707,15 +726,31 @@ footer {
   letter-spacing: 0px;
 }
 
+.signin {
+  display: none;
+}
+
 #be-the-first {
       background-attachment: scroll;
+  }
+
+  .col-xs-12 .logo img {
+    margin: auto;
   }
 
 }
 /* Desktops and laptops ----------- */
 @media (max-width: 600px) {
   #pricing #icons div {
-      display: block !important;
+    flex-flow: column;
+  }
+
+  #pricing h3 {
+    font-size: 22px;
+  }
+
+  #pricing img {
+    width: 100px;
   }
 }
 
@@ -727,6 +762,10 @@ footer {
       background-attachment: scroll;
   }
 
+  .signin {
+    display: none;
+  }
+
 }
 
 
@@ -735,6 +774,10 @@ footer {
 
 #be-the-first {
       background-attachment: scroll;
+  }
+
+  .signin {
+    display: none;
   }
 
 }

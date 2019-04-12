@@ -644,12 +644,12 @@ footer {
     font-size: 17.5px;
 }
 
-#faq li span, #links li span {
+#faq li span {
     display: block;
     text-align: left;
 }
 
-#faq li span:nth-child(1) {
+#faq li span:nth-child(1), #links li span:nth-child(1) {
     color: white;
     font-weight: 600;
 }
@@ -661,6 +661,7 @@ footer {
 #faq li span:nth-child(2):before {
     content: "A: "
 }
+
 
 /* ==========================================================================
    Form styles

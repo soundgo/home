@@ -642,8 +642,10 @@ footer {
     list-style: none;
     margin: 20px 0;
     font-size: 17.5px;
+}    
+#links li {
+    margin-bottom: 25px;
 }
-
 #faq li span {
     display: block;
     text-align: left;
@@ -660,6 +662,19 @@ footer {
 
 #faq li span:nth-child(2):before {
     content: "A: "
+}
+
+#links li span:nth-child(1) {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#links li span:nth-child(2) {
+    margin-right: 15px;
+}
+
+#links li span:nth-child(3) {
+    margin-left: 15px;
 }
 
 

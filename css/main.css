@@ -479,7 +479,7 @@ footer {
 /*---------------Pricing Tables-------------------*/
 
 
-#pricing, #faq {
+#pricing, #faq, #links {
   background: #7E3FD1;
 }
 
@@ -638,13 +638,13 @@ footer {
 #faq ul {
 }
 
-#faq li {
+#faq li, #links li {
     list-style: none;
     margin: 20px 0;
     font-size: 17.5px;
 }
 
-#faq li span {
+#faq li span, #links li span {
     display: block;
     text-align: left;
 }

@@ -621,9 +621,14 @@ footer {
     margin: auto;
 }
 
+.video-info {
+  margin-top: 20px;
+  margin-bottom: -50px;
+}
 
 #about .avatar {
     border-radius: 100%;
+    object-fit: cover;
     width: 150px;
     height: 150px;
     margin-bottom: 10px;

@@ -611,6 +611,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.video-info + #text {
+  color:white;
+}
 
 #pricing #icons h3 {
     text-align: center;

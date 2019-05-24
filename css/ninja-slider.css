@@ -33,6 +33,7 @@
 #ninja-slider .slider-inner:hover .fs-icon,
 #ninja-slider.fullscreen .fs-icon {
     opacity: 1;
+    display: none;
 }
 
 #ninja-slider .fs-icon::before {      

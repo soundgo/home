@@ -25,6 +25,9 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
+  <script src="js/ninjaVideoPlugin.js"></script>
+  <script src="js/ninja-slider.js" type="text/javascript"></script>
 
   <script src="js/modernizr-2.7.1.js"></script>
 
@@ -140,9 +143,41 @@
         </div>
       </div>
       <div class="video-info center">
-        <h3>Official video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ggjNaqspEqk" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Our videos</h3>
+        <div id='ninja-slider'>
+          <div class="slider-inner">
+            <ul>
+              <li>
+                <div class="video">
+                  <iframe
+                    src="https://www.youtube.com/embed/ggjNaqspEqk?enablejsapi=1&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1"
+                    frameborder="0" allowfullscreen data-autoplay="false"></iframe>
+                </div>
+                <div class="caption">For users</div>
+                <div class="video-playbutton-layer"></div>
+              </li>
+              <li>
+                <div class="video">
+                  <iframe
+                    src="https://www.youtube.com/embed/TjKRkeSOmS8?enablejsapi=1&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1"
+                    frameborder="0" allowfullscreen data-autoplay="false"></iframe>
+                </div>
+                <div class="caption">For advertisers</div>
+                <div class="video-playbutton-layer"></div>
+              </li>
+              <li>
+                <div class="video">
+                  <iframe
+                    src="https://www.youtube.com/embed/TjKRkeSOmS8?enablejsapi=1&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1"
+                    frameborder="0" allowfullscreen data-autoplay="false"></iframe>
+                </div>
+                <div class="caption">For investors</div>
+                <div class="video-playbutton-layer"></div>
+              </li>
+            </ul>
+            <div class="fs-icon"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -180,13 +215,6 @@
         <br />
         <h3 class="white center">0.075 euros</h3>
       </div>
-
-      <div class="row margin-50 center white">
-        <h3 class="center white">We recommend you to see this video</h3><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TjKRkeSOmS8" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-
     </div>
   </section>
 
@@ -359,8 +387,8 @@
           </li>
           <li>
             <span>Previous versions</span>
-            <a href="https://soundgo-v1.herokuapp.com/">SoundGo v1  |</a>
-            <a href="https://soundgo-v2.herokuapp.com/">SoundGo v2  |</a>
+            <a href="https://soundgo-v1.herokuapp.com/">SoundGo v1 |</a>
+            <a href="https://soundgo-v2.herokuapp.com/">SoundGo v2 |</a>
             <a href="https://soundgo-v3.herokuapp.com/">SoundGo v3</a>
           </li>
         </ul>
